@@ -3,7 +3,7 @@ package com.avik.springbootdemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.avik.springbootdemo.controller")
 public class SpringbootdemoApplication {
 
 	public static void main(String[] args) {
@@ -11,4 +11,3 @@ public class SpringbootdemoApplication {
 	}
 
 }
-
